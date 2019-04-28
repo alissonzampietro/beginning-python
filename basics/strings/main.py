@@ -5,7 +5,12 @@ print('Range 1:5 showing string: '+name[1:5])
 print('Range :3 showing string: '+name[:3])
 print('Range 3: showing string: '+name[3:])
 
-# conta a quantidade de caracteres que uma string possui
+int = 'alisson'
+
+# Damn it, i don't know yet how this kind of thing can happens
+print(int)
+
+# cont size of characters that a string has
 print('Show the size if the string using a method __len__():  '+str(name.__len__()))
 print('Show the size if the string using a method len():  '+str(len(name)))
 
