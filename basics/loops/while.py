@@ -6,8 +6,9 @@ number = random.randint(1,top)
 trials = 0
 
 while number < top:
-    # Can pass second argument to define how shown structure will behave
-    print(number, end=' ')
+    if number % 2 == 0:
+        # Can pass second argument to define how shown structure will behave
+        print(number, end=' ')
     number += 1
     trials += 1
 
