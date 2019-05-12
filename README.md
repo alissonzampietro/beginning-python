@@ -3,7 +3,6 @@
 I'm training python approaching basics concepts using real examples. If you have some doubt about commands, function etc, you can see the [HELP](help.py).
 
 ## Basics
-
 * [Conditionals](basics/conditionals/main.py)
 * [Dictionaries](basics/dictionaries/main.py)
 * [Lists](basics/lists/main.py)
@@ -14,3 +13,6 @@ I'm training python approaching basics concepts using real examples. If you have
 * [Sets](basics/sets/main.py)
 * [Strings](basics/strings/main.py)
 * [Tuples](basics/tuples/main.py)
+
+## Functions
+* [Basics](functions/basics.py)
