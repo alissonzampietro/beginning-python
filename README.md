@@ -1,6 +1,6 @@
 # Learning Python
 
-I'm training python approaching basics concepts using examples
+I'm training python approaching basics concepts using real examples
 
 ## Basics
 
