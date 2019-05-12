@@ -13,3 +13,13 @@ print('\n')
 # Define range and quantity between values
 for x in range(1,10,2):
     print(x, end=' ')
+
+print('\n')
+
+# interating a string
+name = 'Alisson'
+splitCharacter = ' - '
+for item in name:
+    if(item == name[-1]):
+        splitCharacter=' '
+    print(item, end=splitCharacter)
