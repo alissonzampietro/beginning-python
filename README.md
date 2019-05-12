@@ -5,6 +5,7 @@ I'm training python approaching basics concepts using real examples
 ## Basics
 
 * [Conditionals](basics/conditionals/main.py)
+* [Dictionaries](basics/dictionaries/main.py)
 * [Lists](basics/lists/main.py)
 * Loops
     * [For](basics/loops/for.py)
