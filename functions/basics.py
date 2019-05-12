@@ -11,7 +11,14 @@ try:
             'difference': difference,
             'mod': mod,
         }
-        return allFunctions[functionName]
+
+        a = input('first param: ')
+        if(functionName not in onlyOneParameter):
+            b = input('second param: ')
+        else:
+            b = 0
+        print(allFunctions[functionName](int(a),int(b)))
+        begin()
 
     def sum(a,b):
         return a + b
@@ -30,14 +37,7 @@ try:
 
     def begin():
         funcName = input('type the operation name: ')
-        func = dispatcher(funcName)
-        a = input('first param: ')
-        if(funcName not in onlyOneParameter):
-            b = input('second param: ')
-        else:
-            b = 0
-        print(func(int(a),int(b)))
-        begin()
+        dispatcher(funcName)
 
     begin()
 except:
