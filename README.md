@@ -17,4 +17,5 @@ I'm training python approaching basics concepts using real examples. If you have
 ## Functions
 * [Basics](functions/basics.py)
 * [Calculator](functions/calculator.py)
+* [Lambda](functions/lambda.py)
 * [Recursive](functions/recursive.py)
