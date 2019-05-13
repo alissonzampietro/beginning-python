@@ -1,46 +1,28 @@
-# Functions
+#FUNCTIONS
 
-try:
-    onlyOneParameter = {'mod'}
-    ## my fist function, it was really easy
-    def dispatcher(functionName):
-        allFunctions = {
-            'sum':sum,
-            'multiply': multiply,
-            'divide': divide,
-            'difference': difference,
-            'mod': mod,
-        }
+## To create a function you should use the term 'def'
+def hello():
+    print('hello world')
 
-        a = input('first param: ')
-        if(functionName not in onlyOneParameter):
-            b = input('second param: ')
-        else:
-            b = 0
-        print(allFunctions[functionName](int(a),int(b)))
-        begin()
+def total(*args):
+    print('calc total: '+str(sum(*args)))
 
-    def sum(a,b):
-        return a + b
+# You can pass undefined amount of params for the functions
+def any(*args):
+    print('Showing only first parameter: '+str(args[0]))
+
+hello()
+total([1,2,3,4])
+any([1,2,3,4])
+
+# You can assign a method to a variable
+imprimir = print
+imprimir('Teste em português')
+
+# Default params
+
+def showName(name='Sem nome'):
+    print(name)
+
+showName('Alisson Zampietro')
     
-    def difference(a,b):
-        return a - b
-
-    def multiply(a,b):
-        return a * b
-    
-    def divide(a,b):
-        return a / b
-    
-    def mod(a, b):
-        return a % 2
-
-    def begin():
-        funcName = input('type the operation name: ')
-        dispatcher(funcName)
-
-    begin()
-except:
-    print('This operation is not implemented yet')
-    begin()
-
