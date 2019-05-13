@@ -4,12 +4,19 @@
 def hello():
     print('hello world')
 
-def total(*args):
-    print('calc total: '+str(sum(*args)))
+# Here you can pass a list as arguments
+def total(*params):
+    print('calc total: '+str(sum(*params)))
 
 # You can pass undefined amount of params for the functions
 def any(*args):
     print('Showing only first parameter: '+str(args[0]))
+
+def total(*params):
+    # here it shows individual items
+    print(*params)
+    # here it shows a tuple 
+    print(params)
 
 hello()
 total([1,2,3,4])
@@ -25,4 +32,5 @@ def showName(name='Sem nome'):
     print(name)
 
 showName('Alisson Zampietro')
+total(1,2,3,4)
     
