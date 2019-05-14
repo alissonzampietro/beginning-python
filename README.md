@@ -26,3 +26,7 @@ I'm training python approaching basics concepts using real examples. If you have
 * [Calculator](functions/calculator.py)
 * [Lambda](functions/lambda.py)
 * [Recursive](functions/recursive.py)
+
+
+## Modules
+* [Imports](modules/main.py)
