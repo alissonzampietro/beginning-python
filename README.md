@@ -11,7 +11,7 @@ I'm training python approaching basics concepts using real examples. If you have
     * [While](basics/loops/while.py)
 * [Numbers](basics/numbers/main.py)
 * Operators
-    * [Arithmetical](basics/operators/arithmeticals.py)
+    * [Arithmetical](basics/operators/arithmetical.py)
     * [Assignment](basics/operators/assignment.py)
     * [Bitwise](basics/operators/bitwise.py)
     * [Identity](basics/operators/identity.py)
