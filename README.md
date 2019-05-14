@@ -21,6 +21,9 @@ I'm training python approaching basics concepts using real examples. If you have
 * [Strings](basics/strings/main.py)
 * [Tuples](basics/tuples/main.py)
 
+## Files
+* [index](files/main.py)
+
 ## Functions
 * [Basics](functions/basics.py)
 * [Calculator](functions/calculator.py)
