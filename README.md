@@ -37,7 +37,7 @@ I'm training python approaching basics concepts using real examples. If you have
 * [Imports](modules/main.py)
 
 ## OOP
-* [Account](oop/accont/accont.py)
-    * [Calling](oop/accont/index.py)
+* [Account](oop/account/account.py)
+    * [Calling](oop/account/index.py)
 * [Person](oop/person/person.py)
     * [Calling](oop/person/index.py)
