@@ -35,3 +35,6 @@ I'm training python approaching basics concepts using real examples. If you have
 
 ## Modules
 * [Imports](modules/main.py)
+
+## OOP
+* [Class](oop/class.py)
