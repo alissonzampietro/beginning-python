@@ -24,6 +24,7 @@ I'm training python approaching basics concepts using real examples. If you have
 ## Files
 * [Basic](files/basic.py)
 * [Easier](files/easier.py)
+* [Iris Sample (Machine Learning)](files/iris-sample.py)
 
 ## Functions
 * [Basics](functions/basics.py)

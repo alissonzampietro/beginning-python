@@ -4,4 +4,4 @@ with open('datasets/iris.data', 'r') as f:
         print(linha)
 
 with open('datasets/iris.data', 'r') as f:
-    print(f.read())
+    print(f.read().splitlines(' '))
