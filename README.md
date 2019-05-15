@@ -22,7 +22,8 @@ I'm training python approaching basics concepts using real examples. If you have
 * [Tuples](basics/tuples/main.py)
 
 ## Files
-* [index](files/main.py)
+* [Basic](files/basic.py)
+* [Easier](files/easier.py)
 
 ## Functions
 * [Basics](functions/basics.py)
