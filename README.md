@@ -26,14 +26,14 @@ I'm training python approaching basics concepts using real examples. If you have
 * [Easier](files/easier.py)
 * [Iris Sample (Machine Learning)](files/iris-sample.py)
 
+## Functional Programming
+* [Basics](functional_programming/basics.py)
+
 ## Functions
 * [Basics](functions/basics.py)
 * [Calculator](functions/calculator.py)
 * [Lambda](functions/lambda.py)
 * [Recursive](functions/recursive.py)
-
-## Functional Programming
-* [Basics](functional_programming/basics.py)
 
 
 ## Modules
