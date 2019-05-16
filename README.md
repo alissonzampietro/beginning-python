@@ -32,6 +32,9 @@ I'm training python approaching basics concepts using real examples. If you have
 * [Lambda](functions/lambda.py)
 * [Recursive](functions/recursive.py)
 
+## Functional Programming
+* [Basics](functional_programming/basics.py)
+
 
 ## Modules
 * [Imports](modules/main.py)
@@ -41,5 +44,3 @@ I'm training python approaching basics concepts using real examples. If you have
     * [Calling](oop/account/index.py)
 * [Person](oop/person/person.py)
     * [Calling](oop/person/index.py)
-
-## Function
