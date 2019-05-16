@@ -41,3 +41,5 @@ I'm training python approaching basics concepts using real examples. If you have
     * [Calling](oop/account/index.py)
 * [Person](oop/person/person.py)
     * [Calling](oop/person/index.py)
+
+## Function
