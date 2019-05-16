@@ -30,6 +30,7 @@ I'm training python approaching basics concepts using real examples. If you have
 * [Basics](functional_programming/basics.py)
 * [Filter](functional_programming/filter.py)
 * [Lambda](functional_programming/lambda.py)
+* [Map](functional_programming/map.py)
 
 ## Functions
 * [Basics](functions/basics.py)
