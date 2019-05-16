@@ -3,7 +3,9 @@ from checkingAccount import CheckingAccount
 
 ac = CheckingAccount('Alisson Zampietro', 4356, 100)
 
-print(ac.showGreetingMessage())
+ac.showGreetingMessage()
 
 ac = Account('Jessica Lopes', 45454)
 print(ac.number)
+
+ac.showGreetingMessage()
