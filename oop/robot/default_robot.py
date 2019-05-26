@@ -8,4 +8,4 @@ class DefaultRobot:
     # If we use the instance
     def showParts(self):
         # You can get the name of the class using type(self).__name__
-        print('The robot '+type(self).__name__+' has '+str(self.hands)+' hand(s) and '+str(self.legs)+' leg(s)')
+        print('The robot '+type(self).__name__+' has '+str(self.hands)+' hand(s) and '+str(self.legs)+' leg(s)', end='')
