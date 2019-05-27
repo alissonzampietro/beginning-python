@@ -1,7 +1,8 @@
-class Robot:
+from Point import Point
+
+class Robot(Point):
     def __init__(self, x, y):
-        self.x = x
-        self.y = y
+        super(Robot, self).__init__(x,y)
         print(x,y)
 
     def moveUp(self):
