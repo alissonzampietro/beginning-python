@@ -2,17 +2,21 @@ class Robot:
     def __init__(self, x, y):
         self.x = x
         self.y = y
+        print(x,y)
 
-    def moveUp(self, value):
-        self.y += value
+    def moveUp(self):
+        self.y += 1
 
-    def moveDown(self, value):
-        self.y -= value
+    def moveDown(self):
+        self.y -= 1
     
-    def moveLeft(self, value):
-        self.x -= value
+    def moveLeft(self):
+        self.x -= 1
 
-    def moveRight(self, value):
-        self.x += value    
+    def moveRight(self):
+        self.x += 1
+
+    def showPosition(self):
+        print(self.x,self.y)
 
         
