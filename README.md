@@ -50,4 +50,4 @@ I'm training python approaching basics concepts using real examples. If you have
 * [_Super_ Method](oop/robot/tars.py)
 
 ### Robot Game
-* [Imports](modules/main.py)
+* [Inicio](robot_game/index.py)
