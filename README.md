@@ -51,6 +51,6 @@ I'm training python approaching basics concepts using real examples. If you have
 
 ### Robot Game
 * [Inicio](robot_game/index.py)
-* [Points](robot_game/Points.py)
+* [Points](robot_game/Point.py)
 * [Rewards](robot_game/Rewards.py)
 * [Robot](robot_game/Robot.py)
