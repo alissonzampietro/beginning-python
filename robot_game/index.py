@@ -2,11 +2,11 @@ from Robot import Robot
 from Rewards import Rewards
 
 def checkReward(robot,rewards):
-    ok = True
+    ok = False
     for reward in rewards:
         if reward.x == robot.x and reward.y == robot.y:
             print('O robo achou a recompensa: %s' % reward.name)
-            ok = False
+            ok = True
     return ok
 
 # r1 = Robot(5,5)
@@ -22,4 +22,5 @@ rewards = [r1,r2]
 
 robot = Robot(2,2)
 robot.moveDown()
-checkReward(robot, rewards)
+robot.moveRight()
+print(checkReward(robot, rewards))
