@@ -3,13 +3,13 @@ from Rewards import Rewards
 import getch
 from Drawer import Drawer
 
-r1 = Rewards(1,2,'coins')
-r2 = Rewards(2,5,'gold')
-rewards = [r1,r2]
-
+# Set initial position
 robot = Robot(5,5)
 
-Drawer(robot)
+r1 = Rewards(1,2,'C')
+r2 = Rewards(2,5,'G')
+rewards = [r1,r2]
+drawer = Drawer(robot, rewards)
 
 
 def caller(number):
@@ -23,17 +23,10 @@ def caller(number):
     func = options.get(number, '')
     if(func != ''):
         func()
-        print(checkReward(robot, rewards))
-
-def checkReward(robot,rewards):
-    ok = False
-    for reward in rewards:
-        if reward.x == robot.x and reward.y == robot.y:
-            print('O robo achou a recompensa: %s' % reward.name)
-            ok = True
-    return ok
+        drawer.draw(robot)
 
 while True:
+    print('\n')
     key = ord(getch.getch())
     caller(key)
 

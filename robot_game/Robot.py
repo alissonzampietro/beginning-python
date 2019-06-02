@@ -13,13 +13,13 @@ class Robot(Point):
             print('Não podes mover mais para cima')
 
     def moveDown(self):
-        if(self.y > 0):
+        if(self.y > 1):
             self.y -= 1
         else:
             print('Não podes mover mais para baixo')
     
     def moveLeft(self):
-        if(self.x > 0):
+        if(self.x > 1):
             self.x -= 1
         else:
             print('Não podes mover mais para esquerda')
@@ -36,7 +36,7 @@ class Robot(Point):
     def getPositions(self):
         return [self.x,self.y]
 
-    def getOrigalSizes(self):
+    def getOriginalSizes(self):
         return [self.originalX, self.originalY]
 
 
