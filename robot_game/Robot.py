@@ -3,7 +3,6 @@ from Point import Point
 class Robot(Point):
     def __init__(self, x, y):
         super(Robot, self).__init__(x,y)
-        print(x,y)
 
     def moveUp(self):
         if(self.y < 10):
