@@ -11,9 +11,7 @@ r1 = Rewards(random.randint(1,10),random.randint(1,10),'Coin')
 r2 = Rewards(random.randint(1,10),random.randint(1,10),'Gold')
 r3 = Rewards(random.randint(1,10),random.randint(1,10),'Weapon')
 rewards = [r1,r2, r3]
-print(r1.__str__())
-print(r2.__str__())
-print(r3.__str__())
+print(r1, r2, r3)
 drawer = Drawer(robot, rewards)
 
 
