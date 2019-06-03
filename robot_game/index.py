@@ -6,8 +6,8 @@ from Drawer import Drawer
 # Set initial position
 robot = Robot(5,5)
 
-r1 = Rewards(1,2,'C')
-r2 = Rewards(2,5,'G')
+r1 = Rewards(1,2,'Coin')
+r2 = Rewards(2,5,'Gold')
 rewards = [r1,r2]
 drawer = Drawer(robot, rewards)
 
@@ -19,7 +19,6 @@ def caller(number):
         65: robot.moveUp,
         66: robot.moveDown
     }
-
     func = options.get(number, '')
     if(func != ''):
         func()

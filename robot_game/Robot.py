@@ -30,14 +30,8 @@ class Robot(Point):
         else:
             print('Não podes mover mais para direita')
 
-    def showPosition(self):
-        print(self.x,self.y)
-    
     def getPositions(self):
         return [self.x,self.y]
 
     def getOriginalSizes(self):
         return [self.originalX, self.originalY]
-
-
-        
