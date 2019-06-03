@@ -2,12 +2,13 @@ from Robot import Robot
 from Rewards import Rewards
 from Drawer import Drawer
 import getch
+import random
 
 # Set initial position
 robot = Robot(3,9)
 
-r1 = Rewards(1,2,'Coin')
-r2 = Rewards(2,5,'Gold')
+r1 = Rewards(random.randint(1,10),random.randint(1,10),'Coin')
+r2 = Rewards(random.randint(1,10),random.randint(1,10),'Gold')
 rewards = [r1,r2]
 drawer = Drawer(robot, rewards)
 
