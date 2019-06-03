@@ -45,9 +45,11 @@ I'm training python approaching basics concepts using real examples. If you have
 ### OOP
 * [Account](oop/account/account.py)
     * [Calling](oop/account/index.py)
+* [__init__](robot_game/Rewards.py)
 * [Person](oop/person/person.py)
     * [Calling](oop/person/index.py)
-* [_Super_ Method](oop/robot/tars.py)
+* [super()](oop/robot/tars.py)
+* [__str__](robot_game/Rewards.py)
 
 ### Robot Game
 * [Inicio](robot_game/index.py)
