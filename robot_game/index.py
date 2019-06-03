@@ -1,10 +1,10 @@
 from Robot import Robot
 from Rewards import Rewards
-import getch
 from Drawer import Drawer
+import getch
 
 # Set initial position
-robot = Robot(5,5)
+robot = Robot(3,9)
 
 r1 = Rewards(1,2,'Coin')
 r2 = Rewards(2,5,'Gold')
