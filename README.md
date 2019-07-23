@@ -14,7 +14,7 @@ I'm training python approaching basics concepts using real examples. If you have
     * [Arithmetical](basics/operators/arithmetical.py)
     * [Assignment](basics/operators/assignment.py)
     * [Bitwise](basics/operators/bitwise.py)
-        - [] Improve quality of tests of bitwise with explanations
+        - [ ] Improve quality of tests of bitwise with explanations
     * [Identity](basics/operators/identity.py)
     * [Membership](basics/operators/membership.py)
     * [Relational](basics/operators/relational.py)
