@@ -19,6 +19,7 @@ I'm training python approaching basics concepts using real examples. If you have
     * [Membership](basics/operators/membership.py)
     * [Relational](basics/operators/relational.py)
 * [Sets](basics/sets/main.py)
+    - [ ] Create explanations and samples with difference between *sets* and *tuples*
 * [Strings](basics/strings/main.py)
 * [Tuples](basics/tuples/main.py)
 
