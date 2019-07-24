@@ -42,12 +42,12 @@ I'm training python approaching basics concepts using real examples. If you have
 
 ### Libraries
 * [NumPy](libs/numpy.py)
-    * [Accessing Values](libs/numpy.py#L14)
-    * [Matrix](libs/numpy.py#L4)
-    * [Matriz Operations](libs/numpy.py#L32)
-    * [Matriz Size](libs/numpy.py#L27)
-    * [Transpose](libs/numpy.py#L23)
-    * [Two-Dimensional  Matrix](libs/numpy.py#L10)
+    * [Accessing Values](libs/numpy.py)
+    * [Matrix](libs/numpy.py)
+    * [Matriz Operations](libs/numpy.py)
+    * [Matriz Size](libs/numpy.py)
+    * [Transpose](libs/numpy.py)
+    * [Two-Dimensional  Matrix](libs/numpy.py)
 * [NumPy vs Python lists](libs/num_vs_python-list.py)
 
 ### Modules
