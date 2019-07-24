@@ -10,6 +10,7 @@ I'm training python approaching basics concepts using real examples. If you have
 * Loops
     * [For](basics/loops/for.py)
     * [While](basics/loops/while.py)
+        * [While for files](files/iris-sample.py#L4)
 * [Numbers](basics/numbers/main.py)
 * Operators
     * [Arithmetical](basics/operators/arithmetical.py)
