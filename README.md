@@ -6,6 +6,7 @@ I'm training python approaching basics concepts using real examples. If you have
 * [Conditionals](basics/conditionals/main.py)
 * [Dictionaries](basics/dictionaries/main.py)
 * [Lists](basics/lists/main.py)
+    * [Appending items](libs/num_vs_python-list.py#L22)
 * Loops
     * [For](basics/loops/for.py)
     * [While](basics/loops/while.py)
@@ -45,6 +46,7 @@ I'm training python approaching basics concepts using real examples. If you have
     * [Accessing Values](libs/num.py#L14)
     * [Average](libs/num_vs_python-list.py#L9)
     * [Diagonal](libs/num_vs_python-list.py#L12)
+    * [Dimension](libs/num_vs_python-list.py#L15)
     * [Matrix](libs/num.py#L4)
     * [Matriz Operations](libs/num.py#L32)
         * [Biggest Matrix Value](libs/num.py#L42)

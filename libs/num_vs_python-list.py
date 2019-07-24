@@ -10,4 +10,15 @@ a = np.array([arr1, arr2])
 print('average: '+str(a.mean()))
 
 ### get diagonal
-print('diagonal'+str(a.diagonal()))
+print('diagonal: '+str(a.diagonal()))
+
+### get dimension
+print('dimension: '+str(a.ndim))
+
+## Python list
+
+listSample = [1,2,3,4,'Alisson']
+
+### appending item
+listSample.append('one more')
+print('appended item: '+str(listSample))
