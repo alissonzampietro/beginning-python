@@ -43,6 +43,8 @@ I'm training python approaching basics concepts using real examples. If you have
 ### Libraries
 * [NumPy](libs/num.py)
     * [Accessing Values](libs/num.py#L14)
+    * [Average](libs/num_vs_python-list.py#L9)
+    * [Diagonal](libs/num_vs_python-list.py#L12)
     * [Matrix](libs/num.py#L4)
     * [Matriz Operations](libs/num.py#L32)
         * [Biggest Matrix Value](libs/num.py#L42)
