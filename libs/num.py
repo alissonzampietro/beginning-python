@@ -29,7 +29,7 @@ print('total of itens: '+str(numpy.size(twoMatrix)))
 ## [4 3]
 print(twoMatrix[:,1])
 
-## arrays operations
+## matrix operations
 array1 = numpy.array([2,6])
 array2 = numpy.array([7,8])
 print('sum items in the unique array: '+str(array1.sum()))
