@@ -45,6 +45,13 @@ I'm training python approaching basics concepts using real examples. If you have
     * [Accessing Values](libs/num.py#L14)
     * [Matrix](libs/num.py#L4)
     * [Matriz Operations](libs/num.py#L32)
+        * [Biggest Matrix Value](libs/num.py#L42)
+        * [Multiply Matrix](libs/num.py#L38)
+        * [Position Biggest Matrix Value](libs/num.py#L48)
+        * [Position Smaller Matrix Value](libs/num.py#L51)s
+        * [Smaller Matrix Value](libs/num.py#L45)
+        * [Subtract Matrix](libs/num.py#L39)
+        * [Sum Matrix](libs/num.py#L37)
     * [Matriz Size](libs/num.py#L27)
     * [Transpose](libs/num.py#L23)
     * [Two-Dimensional  Matrix](libs/num.py#L10)
