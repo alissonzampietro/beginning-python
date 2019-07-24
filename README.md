@@ -41,13 +41,13 @@ I'm training python approaching basics concepts using real examples. If you have
 * [Recursive](functions/recursive.py)
 
 ### Libraries
-* [NumPy](libs/numpy.py)
-    * [Accessing Values](libs/numpy.py)
-    * [Matrix](libs/numpy.py)
-    * [Matriz Operations](libs/numpy.py)
-    * [Matriz Size](libs/numpy.py)
-    * [Transpose](libs/numpy.py)
-    * [Two-Dimensional  Matrix](libs/numpy.py)
+* [NumPy](libs/num.py)
+    * [Accessing Values](libs/num.py#L14)
+    * [Matrix](libs/num.py#L4)
+    * [Matriz Operations](libs/num.py#L32)
+    * [Matriz Size](libs/num.py#L27)
+    * [Transpose](libs/num.py#L23)
+    * [Two-Dimensional  Matrix](libs/num.py#L10)
 * [NumPy vs Python lists](libs/num_vs_python-list.py)
 
 ### Modules
