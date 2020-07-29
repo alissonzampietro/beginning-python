@@ -79,6 +79,11 @@ I'm training python approaching basics concepts using real examples. If you have
 * [super()](oop/robot/tars.py)
 * [__str__](robot_game/Rewards.py)
 
+### Parallel Processing
+* [Using Multiprocessing Library](parallel_processing/mtprocessing.py)
+* [Using Multiprocessing Library in a Loop](parallel_processing/loop_multiprocessing.py)
+
+
 ### Robot Game
 * [Inicio](robot_game/index.py)
 * [Points](robot_game/Point.py)
