@@ -83,7 +83,6 @@ I'm training python approaching basics concepts using real examples. If you have
 * [Using Multiprocessing Library](parallel_processing/mtprocessing.py)
 * [Using Multiprocessing Library in a Loop](parallel_processing/loop_multiprocessing.py)
 
-
 ### Robot Game
 * [Inicio](robot_game/index.py)
 * [Points](robot_game/Point.py)
