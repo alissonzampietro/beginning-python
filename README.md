@@ -10,6 +10,7 @@ I'm training python approaching basics concepts using real examples. If you have
 * [Lists](basics/lists/main.py)
     * [Appending items](libs/num_vs_python-list.py#L22)
 * Loops
+    * [Custom Iterations](iterations/custom_iteration.py)
     * [For](basics/loops/for.py)
     * [While](basics/loops/while.py)
         * [While for files](files/iris-sample.py#L4)
