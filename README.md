@@ -74,6 +74,7 @@ I'm training python approaching basics concepts using real examples. If you have
     * [__init__](oop/magic_methods/index.py)
     * [__str__](oop/magic_methods/index.py)
     * [__repr__](oop/magic_methods/index.py)
+* [Static Methods](oop/classes/math_utils.py)
 * [Person](oop/person/person.py)
     * [Calling](oop/person/index.py)
 * [super()](oop/robot/tars.py)
