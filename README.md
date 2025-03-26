@@ -68,6 +68,7 @@ I'm training python approaching basics concepts using real examples. If you have
 ### Modules
 * [Imports](modules/main.py)
 
+
 ### OOP
 * [Account](oop/account/account.py)
     * [Calling](oop/account/index.py)
@@ -99,4 +100,5 @@ I'm training python approaching basics concepts using real examples. If you have
 
 ### Popular Packages
 * [NumPy](advanced/popular_packages/num.py)
+* [Pandas](advanced/popular_packages/pandas.MD)
 
