@@ -10,8 +10,14 @@ dataframe = pd.DataFrame({
 })
 print(dataframe)
 
+# creating random dates
+dates = np.random.choice(pd.date_range('20250101', periods=90), 90)
 
+# creating dataframes with random number and dates
+df = pd.DataFrame(np.random.randn(90,4), index=dates, columns=['column1', 'column2', 'column3', 'column4'])
+print(df)
 
+# print first 5 rows
+print(df.head())
 
-df = pd.DataFrame(np.random.randint(0,100, (10,10)))
 
