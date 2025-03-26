@@ -15,9 +15,16 @@ dates = np.random.choice(pd.date_range('20250101', periods=90), 90)
 
 # creating dataframes with random number and dates
 df = pd.DataFrame(np.random.randn(90,4), index=dates, columns=['column1', 'column2', 'column3', 'column4'])
-print(df)
+print(f"\n------------------------List of the dataframe: \n{df}")
 
 # print first 5 rows
-print(df.head())
+print(f"\n------------------------First 5 rows: \n{df.head()}")
 
+# shows statistics about the dataframe
+print(f"\n------------------------Statistics about the dataframe: \n{df.describe()}")
 
+# shows the last 5 rows
+print(f"\n------------------------Last 5 rows: \n{df.tail()}")
+
+# transposing the dataframe
+print(f"\n------------------------Transposed dataframe: \n{df.T}")
