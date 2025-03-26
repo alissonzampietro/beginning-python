@@ -90,3 +90,13 @@ I'm training python approaching basics concepts using real examples. If you have
 * [Points](robot_game/Point.py)
 * [Rewards](robot_game/Rewards.py)
 * [Robot](robot_game/Robot.py)
+
+
+## Advanced
+
+### Package Manager
+* [Pip](advanced/pip.md)
+
+### Popular Packages
+* [NumPy](advanced/popular_packages/num.py)
+
